@@ -1,0 +1,8 @@
+.all-team-box{
+    box-shadow: 5px 5px 10px greenyellow;
+    background-color: gainsboro;
+    color: black;
+    margin: 20px;
+    padding: 30px 5px;
+    border-radius: 10px;
+}
