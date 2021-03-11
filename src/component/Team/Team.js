@@ -48,7 +48,7 @@ const Team = () => {
                     </div>
                     <div className="col-md-4 team-img">
                         {
-                            strGender === 'Male' ? <img src={maleImage} alt="male-image"/> : <img src={femaleImage} alt="female-image"/>
+                            strGender === 'Male' ? <img src={maleImage} alt="male-team"/> : <img src={femaleImage} alt="female-team"/>
                         }
                     </div>
                 </div>
