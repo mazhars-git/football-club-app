@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
@@ -12,8 +11,8 @@ import Home from './component/Home/Home';
 import Team from './component/Team/Team';
 
 function App() {
+  
   return (
-    <div className="App">
       <header className="App-header">
         <Router>
             <Switch>
@@ -27,12 +26,11 @@ function App() {
                   <Team />
                 </Route>
                 <Route path="*">
-                  <h1>404! error!!</h1>
+                  <h1 className="error-text">404!! Something went wrong!</h1>
                 </Route>
             </Switch>
         </Router>
       </header>
-    </div>
   );
 }
 

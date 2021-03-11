@@ -1,8 +1,7 @@
-.all-team-box{
-    box-shadow: 5px 5px 10px greenyellow;
-    background-color: gainsboro;
-    color: black;
-    margin: 20px;
-    padding: 30px 5px;
-    border-radius: 10px;
+.card-body{
+    background-color:#93abfa;
+}
+.main-card{
+    padding-left: 0;
+    padding-right: 0;
 }

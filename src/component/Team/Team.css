@@ -1,0 +1,79 @@
+.banner-image img{
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    opacity: .5;
+    margin-bottom: 20px;
+}
+/* -------- team-logo ----------- */
+.logo-img{
+    width: 30%;
+    margin: auto;
+}
+.logo-img img{
+    width: 80%;
+}
+
+/* ---------team-area----------- */
+.team-area{
+    background-color: #05c46b;
+    border-radius: 10px;
+}
+.team-detail{
+    padding: 20px 0 20px 30px;
+    display: flex;
+}
+.team-content p{
+    font-size: 18px;
+}
+.team-content img{
+    width: 20px;
+    margin-right: 5px;
+}
+.team-img img{
+   width: 100%;
+   margin: 25px 0;
+}
+.description{
+    padding-top: 25px;
+    color: rgb(44, 44, 44);
+    text-align: justify;
+    font-size: 15px;
+}
+/* --------icon-area-------------- */
+.icon-area{
+    text-align: center;
+    padding: 50px 0;
+}
+.icon-area a{
+    font-size: 50px;
+    margin: 10px;
+    color: #fff;
+}
+.icon-area .icon-1{
+    color: #4a86ff;
+}
+.icon-area .icon-2{
+    color: #1da1f2;
+}
+.icon-area .icon-3{
+    color: #fd2756;
+}
+.icon-area .icon-4{
+    color: #ff0000;
+}
+.back-btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* ---------footer-area---------- */
+footer{
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 15px;
+    font-size: 18px;
+}

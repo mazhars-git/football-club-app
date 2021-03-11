@@ -1,0 +1,17 @@
+.heading-area{
+    background-image: url(../../images/stedium.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed center;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading-area h1{
+    padding: 100px 0;
+    color: rgb(255, 103, 1);
+    font-size: 50px;
+}
+.teams-area{
+    flex-wrap: wrap;
+}
