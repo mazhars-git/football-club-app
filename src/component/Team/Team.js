@@ -25,12 +25,12 @@ const Team = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]))
-    }, [])
+    }, [idTeam])
 
     return (
         <div>
             <div className="banner-image">
-                <img src={strTeamBanner} alt=""/>
+                <img src={strTeamBanner} alt="Team Banner"/>
             </div>
            <div className="team-area container">
                 <div className="row">
@@ -43,7 +43,7 @@ const Team = () => {
                             <p><img src={icon4} alt=""/>  Gender: {strGender}</p>
                         </div>
                         <div className="logo-img">
-                            <img src={strTeamBadge} alt=""/>
+                            <img src={strTeamBadge} alt="Team Logo"/>
                         </div>
                     </div>
                     <div className="col-md-4 team-img">
