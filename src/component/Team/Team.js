@@ -37,10 +37,10 @@ const Team = () => {
                     <div className="col-md-8 team-detail">
                         <div className="team-content">
                             <h3>{strTeam}</h3>
-                            <p><img src={icon2} alt=""/> Founded: {intFormedYear}</p>
-                            <p><img src={icon1} alt=""/> Country: {strCountry}</p>
-                            <p><img src={icon3} alt=""/>  Sport type: {strSport}</p>
-                            <p><img src={icon4} alt=""/>  Gender: {strGender}</p>
+                            <p><img src={icon2} alt="icon"/> Founded: {intFormedYear}</p>
+                            <p><img src={icon1} alt="icon"/> Country: {strCountry}</p>
+                            <p><img src={icon3} alt="icon"/>  Sport type: {strSport}</p>
+                            <p><img src={icon4} alt="icon"/>  Gender: {strGender}</p>
                         </div>
                         <div className="logo-img">
                             <img src={strTeamBadge} alt="Team Logo"/>
@@ -48,7 +48,7 @@ const Team = () => {
                     </div>
                     <div className="col-md-4 team-img">
                         {
-                            strGender === 'Male' ? <img src={maleImage}/> : <img src={femaleImage}/>
+                            strGender === 'Male' ? <img src={maleImage} alt="male-image"/> : <img src={femaleImage} alt="female-image"/>
                         }
                     </div>
                 </div>
