@@ -11,7 +11,7 @@ In this project I have displayed some cards of football team of England by using
 Bottom of card here is a action button. If it is clicked it will be show some detail information of selected Team.
 
 ## Link of live site
-
+https://604a37fb887a331269b53870--clever-jang-75e3ff.netlify.app/home
 ## Link of code from github.com
 https://github.com/Porgramming-Hero-web-course/react-router-mazhars-git
 
