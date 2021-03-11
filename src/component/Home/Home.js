@@ -18,7 +18,7 @@ const Home = () => {
             </div>
            <Container className="teams-area d-flex justify-content-center">
                 {
-                    allTeams.map(tm => <AllTeam team={tm}></AllTeam>)
+                    allTeams.map(tm => <AllTeam key={tm.idTeam} team={tm}></AllTeam>)
                 }
            </Container>
            <footer>

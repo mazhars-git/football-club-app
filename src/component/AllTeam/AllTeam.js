@@ -9,7 +9,6 @@ import { Card } from 'react-bootstrap';
 
 const AllTeam = (props) => {
     const {strTeam, strSport, strLeague, idTeam, strTeamBadge} = props.team;
-    console.log(props.team)
     return (
         <CardDeck className="m-2 col-md-3 text-center main-card">
             <Card className="card-body">
